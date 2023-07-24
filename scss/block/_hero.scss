@@ -1,0 +1,32 @@
+.hero {
+    padding-top: 150px;
+       background-image: url(../../img/bg.png),url(../../img/hero_img.png) ;
+       background-position: right  top ,right ;
+       background-repeat: no-repeat , no-repeat;
+       background-size: cover, contain;
+}
+.hero__container {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.hero__content {
+    max-width: 812px;
+}
+.hero__title {
+    @include title_hero
+}
+.hero__span {
+}
+.hero__content_block {
+}
+.hero__text {
+    @include text__hero
+}
+.hero__links {
+}
+.hero__link {
+}
+.active {
+}

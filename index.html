@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
 
@@ -17,7 +18,8 @@
        <meta charset="UTF-8">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Document</title>
+       <link rel="stylesheet" href="./css/main.css">
+       <title>Booco</title>
    </head>
    
    <body>
@@ -25,7 +27,23 @@
        <div class="wrapper">
            <!-- =====HEADER-START===== -->
            <header class="header">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quibusdam porro tempore repellat quis autem. Hic nulla obcaecati blanditiis accusantium iste nemo suscipit cumque iure temporibus inventore, tempore, quam quod?
+            <div class="container header__container">
+            <div class="hrader__logo_block">
+                <a class="header__logo_link" href="#"><img class="header__logo" src="./img/logo.png" alt="logo"> </a><a class="header__logo_text" href="#">Booco</a>
+            </div>
+                <nav class="header__nav  nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#"> о booco</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#"> для офисов</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#"> для музеев</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#"> для образования</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#"> для медицины</a></li>
+                    </ul>
+
+                </nav>
+                <button class="header__btn"> Подписаться</button>
+                <button class="nav__burger_svg" >  </button>
+            </div>
            </header>
            <!-- =====HEADER-END===== -->
    
@@ -34,8 +52,26 @@
            <main class="main">
                <!-- =====HERO-START===== -->
                <section class="hero" id="hero">
-   
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores nisi et. Architecto mollitia quae esse, maxime laudantium quam minus eos sit repudiandae accusantium velit itaque earum, minima iusto molestiae!
+                <div class="container hero__container">
+                    <div class="hero__content">
+                        <h2 class="hero__title">
+                            Система <span class="hero__span">бронирования</span> 
+                            помещений Booco     
+                        </h2>
+                        <div class="hero__content_block">
+                            <p class="hero__text">Актуальное расписание переговорных, онлайн бронирование, информирование приглашенных.</p>
+                            <p class="hero__text">Комплексная платформа для
+                                усправления разделяемыми
+                                корпоративными ресурсами</p>
+                        </div>
+                        <div class="hero__links">
+                            <a class="hero__link active" href="#">Подробнее</a>
+                            <a class="hero__link " href="#">Демо оборудование</a>
+                            
+                        </div>
+                    </div>
+                
+                </div>
                </section>
    
                <!-- =====HERO-END===== -->
@@ -48,7 +84,9 @@
        <!-- =====FOOTER-START===== -->
    
        <footer class="footer">
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id autem porro, nam nisi ratione obcaecati consequuntur, enim et sequi facere, qui temporibus? Animi ut recusandae, ex quos facilis accusantium suscipit?
+        <div class="container footer__container">
+            
+        </div>
        </footer>
        <!-- =====FOOTER-END===== -->
    </body>
