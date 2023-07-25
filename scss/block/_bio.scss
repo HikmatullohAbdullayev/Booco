@@ -148,7 +148,14 @@ line-height: 140%; /* 22.4px */
        line-height: 100%; /* 48px */
 }
 }
-
+.bio__item{
+    transform: translateX(50%);
+    color:  #333;
+// max-width: 310px;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+}
 .content_buttom {
     margin-top: 78px;
          display: flex;
